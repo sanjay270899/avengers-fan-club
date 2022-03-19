@@ -5,7 +5,7 @@
   font-family: "Poppins", sans-serif;
 }
 
-body main {
+body .hero {
   height: 100vh;
   width: 100%;
   background: rgb(134, 0, 186);
@@ -30,7 +30,7 @@ body main {
   }
 }
 
-body main .bg-image {
+body .hero .bg-image {
   height: 101vh;
   width: 100%;
   background-image: url("../images/super_heroes.png");
@@ -43,23 +43,23 @@ body main .bg-image {
   padding: 10rem;
 }
 
-body main .container {
+body .hero .container {
   max-width: 50%;
 }
 
-body main .container .text {
+body .hero .container .text {
   color: white;
   font-size: xx-large;
   font-weight: normal;
 }
 
-body main .container .button-container {
+body .hero .container .button-container {
   display: flex;
   justify-content: flex-start;
   align-items: center;
 }
 
-body main .container .hero-button {
+body .hero .container .hero-button {
   background-color: white;
   border-radius: 0.25rem;
   padding: 0.3rem 1rem;
@@ -69,12 +69,12 @@ body main .container .hero-button {
   margin-top: 1rem;
 }
 
-body main .container .hero-button:not(:first-child) {
+body .hero .container .hero-button:not(:first-child) {
   margin-left: 1rem;
   background-color: transparent;
   color: white;
 }
 
-body main .container .hero-button:not(:first-child):hover {
+body .hero .container .hero-button:not(:first-child):hover {
   text-decoration: underline;
 }

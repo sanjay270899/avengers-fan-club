@@ -6,8 +6,8 @@ export const NavComponent = `<nav>
       <a href="./about.html" class="nav-item">
         About Us
       </a>
-      <a href="./members.html" class="nav-item">
-        Members
+      <a href="./team.html" class="nav-item">
+        Team
       </a>
       <a href="./contact.html" class="nav-item">
         Contact Us
