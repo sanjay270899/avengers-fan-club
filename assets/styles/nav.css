@@ -1,0 +1,47 @@
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  background: rgba(0, 0, 0, 0.3);
+  padding: 1rem 3rem;
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  z-index: 9999;
+}
+
+nav a {
+  text-decoration: inherit;
+  color: white;
+  cursor: pointer;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+nav .left {
+  font-size: 1.3rem;
+  font-weight: bold;
+}
+
+nav .left,
+nav .right {
+  margin: 0 1rem;
+}
+
+nav .right .nav-item {
+  margin-left: 3rem;
+}
+
+nav .right .nav-item-button {
+  background-color: rgba(255, 255, 255, 0.9);
+  color: #460061;
+  font-weight: 700;
+  padding: 0.3rem 1rem;
+  border-radius: 9999px;
+  text-decoration: none;
+}
