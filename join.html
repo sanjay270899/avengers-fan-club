@@ -10,7 +10,7 @@
     <link rel="shortcut icon" href="./favicon.ico" type="image/x-icon" />
 
     <!-- Styles -->
-    <link rel="stylesheet" href="./assets/styles/404.css" />
+    <link rel="stylesheet" href="./assets/styles/join.css" />
     <link rel="stylesheet" href="./assets/styles/nav.css" />
     <link rel="stylesheet" href="./assets/styles/footer.css" />
     <link rel="stylesheet" href="./assets/styles/loader.css" />
@@ -31,14 +31,32 @@
     </div>
     <div id="nav-root"></div>
 
-    <main class="not-found">
-      <h1>Page not found</h1>
-      <p>
-        It looks like you have landed on an unknown page. Or maybe the page has
-        been moved.
-      </p>
-      <img src="./assets/images/thanos_hand.jpg" alt="404-error" />
+    <main class="join">
+      <h1>Join the club now</h1>
+      <img
+        src="./assets/icons/down-arrow-svgrepo-com.svg"
+        alt="down-arrow"
+        width="50px"
+      />
     </main>
+
+    <section class="join-form">
+      <form action="">
+        <h3><u>Fill your details</u></h3>
+        <label for="name"><b>Name</b></label>
+        <input type="text" placeholder="Enter Name" name="name" required />
+
+        <label for="email"><b>Email</b></label>
+        <input type="text" placeholder="Enter Email" name="email" required />
+
+        <button>Submit</button>
+      </form>
+      <img
+        src="./assets/images/iron_man.jpg"
+        alt="iron-man"
+        class="join-form-image"
+      />
+    </section>
 
     <div id="footer-root"></div>
   </body>

@@ -1,0 +1,78 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+.join {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: rgb(134, 0, 186);
+  background-image: url("../gif/thanos.gif"),
+    linear-gradient(90deg, rgba(134, 0, 186, 1) 29%, rgba(70, 0, 97, 1) 81%);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 4rem;
+  color: white;
+}
+
+.join h1 {
+  text-align: center;
+  font-size: 3rem;
+  text-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.join-form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: rgb(134, 0, 186);
+  background-image: linear-gradient(
+    90deg,
+    rgba(134, 0, 186, 1) 29%,
+    rgba(70, 0, 97, 1) 81%
+  );
+}
+
+.join-form .join-form-image {
+  height: 50vh;
+  border-radius: 1rem;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  margin-left: 3rem;
+}
+
+.join-form form {
+  background-color: white;
+  padding: 3rem;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: center;
+  color: purple;
+  border-radius: 1rem;
+  min-height: 50vh;
+}
+
+.join-form form label,
+.join-form button {
+  margin-top: 1rem;
+}
+
+.join-form button {
+  background-color: purple;
+  color: white;
+  border: none;
+  padding: 0.3rem 1rem;
+  font-weight: 500;
+  border-radius: 9999px;
+  cursor: pointer;
+}
+
+.join-form button:hover {
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
