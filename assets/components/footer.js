@@ -12,7 +12,7 @@ export const FooterComponent = `<footer>
             <h3>Newsletter</h3>
             <p>
               Subscribe to our newsletter to get your weekly dose of
-              news,updates,tips and special offers.
+              news, updates, tips and special offers.
             </p>
             <div class="footer-section-row">
               <input type="email" placeholder="Enter your email address" />
