@@ -9,7 +9,7 @@ export const NavComponent = `<nav>
       <a href="./team.html" class="nav-item">
         Team
       </a>
-      <a href="./contact.html" class="nav-item">
+      <a href="./404.html" class="nav-item">
         Contact Us
       </a>
       <a href="./join.html" class="nav-item nav-item-button">
