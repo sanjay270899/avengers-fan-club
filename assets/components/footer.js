@@ -3,9 +3,9 @@ export const FooterComponent = `<footer>
           <div class="footer-section">
             <h3>Quick Links</h3>
             <ul>
-              <li><a href="/about.html">About Us</a></li>
-              <li><a href="/contact.html">Contact Us</a></li>
-              <li><a href="/team.html">Team</a></li>
+              <li><a href="./about.html">About Us</a></li>
+              <li><a href="./contact.html">Contact Us</a></li>
+              <li><a href="./team.html">Team</a></li>
             </ul>
           </div>
           <div class="footer-section">
